@@ -10,7 +10,7 @@ Boilerplate witch implements AVAudioRecorder and AVAudioPlayer objects.
 
 ## Preview
 
-![PREVIEW_00](media/screenshot00.jpg)
+![PREVIEW_00](media/screenshot00.png)
 
 ## Usage
 
