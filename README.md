@@ -22,7 +22,7 @@ To run the example project, clone the repo, and build the project.
 
 You can implement your own recorder delegate object like this shown below:
 
-```
+```swift
 import AVFoudation
 
 class MyController: ViewController, AVAudioRecorderDelegate {
