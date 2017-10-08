@@ -78,6 +78,10 @@ class AudioRecorderManager: NSObject {
 
     // MARK: Audio Recorder Methods
 
+    func set(recorderDelegate: AVAudioRecorderDelegate) {
+        recorder?.delegate = recorderDelegate
+    }
+
     func isActive() -> Bool {
         if let audioRecorder = recorder, audioRecorder.isRecording {
             return true
@@ -122,8 +126,6 @@ extension AudioRecorderManager: AVAudioRecorderDelegate {
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if (flag) {
             print("Finish Recording")
-        } else {
-            print("Bora")
         }
     }
 }
