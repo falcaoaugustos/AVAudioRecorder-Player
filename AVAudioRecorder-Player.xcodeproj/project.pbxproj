@@ -13,6 +13,7 @@
 		B5D630511F89BF5C002E22CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D630501F89BF5C002E22CC /* Assets.xcassets */; };
 		B5D630541F89BF5C002E22CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D630521F89BF5C002E22CC /* LaunchScreen.storyboard */; };
 		B5D6305C1F89C1A1002E22CC /* AudioRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6305B1F89C1A1002E22CC /* AudioRecorderManager.swift */; };
+		B5D6305E1F89C1FC002E22CC /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6305D1F89C1FC002E22CC /* AudioPlayerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B5D630531F89BF5C002E22CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5D630551F89BF5C002E22CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D6305B1F89C1A1002E22CC /* AudioRecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderManager.swift; sourceTree = "<group>"; };
+		B5D6305D1F89C1FC002E22CC /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B5D630521F89BF5C002E22CC /* LaunchScreen.storyboard */,
 				B5D630551F89BF5C002E22CC /* Info.plist */,
 				B5D6305B1F89C1A1002E22CC /* AudioRecorderManager.swift */,
+				B5D6305D1F89C1FC002E22CC /* AudioPlayerManager.swift */,
 			);
 			path = "AVAudioRecorder-Player";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5D6304C1F89BF5C002E22CC /* ViewController.swift in Sources */,
+				B5D6305E1F89C1FC002E22CC /* AudioPlayerManager.swift in Sources */,
 				B5D6305C1F89C1A1002E22CC /* AudioRecorderManager.swift in Sources */,
 				B5D6304A1F89BF5C002E22CC /* AppDelegate.swift in Sources */,
 			);
